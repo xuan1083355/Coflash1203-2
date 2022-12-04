@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:duration="2000"
+        android:fromAlpha="1.0"
+        android:toAlpha="0"
+        />
+    <!--
+        duration 動畫執行時間
+        fromAlpha 起始時物件的透明度(Alpha)
+        toAlpha 結束時物件的透明度
+        -->
+</set>

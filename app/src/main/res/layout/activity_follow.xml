@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".follow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:id="@+id/top"
+            tools:ignore="DuplicateIds,MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="26.66dp"
+                android:layout_height="26.66dp"
+                android:layout_marginLeft="19.05dp"
+                android:layout_marginTop="33.9dp"
+                android:background="#00000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31.62dp"
+                android:gravity="center"
+                android:text="我的追蹤"
+                android:textColor="#F3BA55"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RV_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/back" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.90dp"
+            android:background="#D9D9D9"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

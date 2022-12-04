@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="2000"
+        android:fromXDelta="0%"
+        android:fromYDelta="0%"
+        android:toXDelta="25%p"
+        android:toYDelta="0%p"
+        />
+    <!--
+        duration 動畫執行時間
+        fromXScale 動畫開始時X的大小
+        fromYScale 動畫開始時Y的大小
+        toXScale 動畫結束時X的大小
+        toYScale 動畫結束時Y的大小
+        1.0跟0.5分別代表物件的倍率
+        pivotX、pivotY 代表縮小的中心點
+        50%、50%表示中心縮小
+    -->
+</set>

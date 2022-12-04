@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923593981377",
+    "project_id": "coflash-48a90",
+    "storage_bucket": "coflash-48a90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923593981377:android:48a92519ef28fe4b0b4340",
+        "android_client_info": {
+          "package_name": "com.example.coflash",
+          "certificate_hash": "e5d760a8b6b1e02f95a03f9e4dba34e3af332902"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923593981377-ir31mjgl1onh8nak62cvuv0rarp6tg6n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coflash",
+            "certificate_hash": "e5d760a8b6b1e02f95a03f9e4dba34e3af332902"
+          }
+        },
+        {
+          "client_id": "923593981377-6ve69rjj68osttici2f0jiegenbauhg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMFnXfYAC879K4qHNTzZjAUQxHcYmgJfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923593981377-44t130tgj5je72ul3fioq561or2t6ohu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

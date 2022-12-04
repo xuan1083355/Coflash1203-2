@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:background="#F3BA55"
+        tools:ignore="DuplicateIds,MissingConstraints">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31.62dp"
+            android:gravity="center"
+            android:text="每日登入"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="26.66dp"
+            android:layout_height="26.66dp"
+            android:layout_marginLeft="19.05dp"
+            android:layout_marginTop="33.9dp"
+            android:background="#00000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/close" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/paper"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/paper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/sentence"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="###########"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="337dp" />
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <RelativeLayout
+        android:id="@+id/RL_reward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paper"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/tv_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="獲得每日獎勵!"
+            android:textColor="#B68B40"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_thing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_get"
+            android:layout_centerHorizontal="true"
+            android:text="鑽石及經驗值"
+            android:textColor="#000"
+            android:textSize="25sp" />
+        <ImageView
+            android:id="@+id/img_diamond"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/tv_thing"
+            android:src="@drawable/diamond"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/img_diamond"
+            android:layout_alignBottom="@id/img_diamond"
+            android:text="X5"
+            android:textColor="#000"
+            android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/img_experience"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="130dp"
+            android:layout_below="@+id/tv_thing"
+            android:src="@drawable/experience"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/img_experience"
+            android:layout_alignBottom="@id/img_experience"
+            android:text="X5"
+            android:textColor="#000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_take"
+        android:layout_width="410dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="550dp"
+        android:fontFamily="sans-serif"
+        android:visibility="gone"
+        android:gravity="center"
+        android:text="今日已領取獎勵"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

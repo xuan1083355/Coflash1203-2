@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:onClick="onClick"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/address"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="9dp" />
+
+        <TextView
+            android:id="@+id/tv_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="常用地點"
+            android:textSize="17.05sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_addr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="27dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="詳細地址"
+            android:textSize="11.432sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_addr" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/line"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

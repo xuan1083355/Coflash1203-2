@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDiamond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:id="@+id/top"
+            tools:ignore="DuplicateIds,MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="26.66dp"
+                android:layout_height="26.66dp"
+                android:layout_marginLeft="19.05dp"
+                android:layout_marginTop="33.9dp"
+                android:background="#00000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31.62dp"
+                android:gravity="center"
+                android:text="儲值鑽石"
+                android:textColor="#F3BA55"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.90dp"
+            android:background="#D9D9D9"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="剩餘鑽石："
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#ACABAB"/>
+            <ImageView
+                android:id="@+id/diamond"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/last"
+                android:src="@drawable/diamond"/>
+
+            <TextView
+                android:id="@+id/diamond_number"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_toRightOf="@+id/diamond"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

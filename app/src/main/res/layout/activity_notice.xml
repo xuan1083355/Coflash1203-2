@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notice">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:id="@+id/top"
+        android:background="#F3BA55"
+        tools:ignore="DuplicateIds,MissingConstraints">
+
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="26.66dp"
+            android:layout_height="26.66dp"
+            android:layout_marginLeft="19.05dp"
+            android:layout_marginTop="33.9dp"
+            android:background="#00000000"
+            android:scaleType="centerCrop"
+            android:src="@drawable/back2"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31.62dp"
+            android:gravity="center"
+            android:text="通知"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/top"
+        tools:ignore="MissingConstraints">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp" />
+
+    </RelativeLayout>
+
+    <!--標籤頁-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.90dp"
+            android:background="#E5E5E5"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/under_home"
+                android:layout_width="53.33dp"
+                android:layout_height="50.66dp"
+                android:layout_marginLeft="15.24dp"
+                android:layout_marginTop="9.14dp"
+                android:background="@color/white"
+                android:label="Home"
+                android:scaleType="centerInside"
+                android:src="@drawable/home_color" />
+
+            <ImageButton
+                android:id="@+id/under_tag"
+                android:layout_width="53.33dp"
+                android:layout_height="50.66dp"
+                android:layout_marginLeft="28.57dp"
+                android:layout_marginTop="9.14dp"
+                android:background="@color/white"
+                android:label="Home"
+                android:scaleType="centerInside"
+                android:src="@drawable/tag" />
+
+            <ImageButton
+                android:id="@+id/under_plus"
+                android:layout_width="53.33dp"
+                android:layout_height="53.33dp"
+                android:layout_marginLeft="28.57dp"
+                android:layout_marginTop="6.47dp"
+                android:background="@color/white"
+                android:label="Home"
+                android:scaleType="centerInside"
+                android:src="@drawable/plus" />
+
+            <ImageButton
+                android:id="@+id/under_collect"
+                android:layout_width="53.33dp"
+                android:layout_height="50.66dp"
+                android:layout_marginLeft="28.57dp"
+                android:layout_marginTop="9.14dp"
+                android:background="@color/white"
+                android:label="Home"
+                android:scaleType="centerInside"
+                android:src="@drawable/collect" />
+
+            <ImageButton
+                android:id="@+id/under_myinfo"
+                android:layout_width="53.33dp"
+                android:layout_height="50.66dp"
+                android:layout_marginLeft="28.57dp"
+                android:layout_marginTop="9.14dp"
+                android:background="@color/white"
+                android:label="Home"
+                android:scaleType="centerInside"
+                android:src="@drawable/myinfo" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

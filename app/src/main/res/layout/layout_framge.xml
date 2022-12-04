@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rbtn_0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#4DF9C316"
+    android:buttonTint="#F3BA55"
+    android:checked="true"
+    android:padding="15dp"
+    android:text="現在位置\n811高雄市楠梓區高雄大學路700號"/>

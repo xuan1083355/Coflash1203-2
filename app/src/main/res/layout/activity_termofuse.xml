@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermOfUse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:id="@+id/top"
+            tools:ignore="DuplicateIds,MissingConstraints">
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="26.66dp"
+                android:layout_height="26.66dp"
+                android:layout_marginLeft="19.05dp"
+                android:layout_marginTop="33.9dp"
+                android:background="#00000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31.62dp"
+                android:gravity="center"
+                android:text="使用條款"
+                android:textColor="#F3BA55"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.90dp"
+            android:background="#D9D9D9"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:text="我們期許 Coflash 能持續提供一個真實且安全的園地，為大家帶來靈感，讓用戶表達自我。請協助我們維護這個社群。請勿發佈不屬於您的相片和影片，且務必遵守法律。請尊重Coflash 上的每位用戶，勿傳送垃圾訊息或發佈裸露相片。"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

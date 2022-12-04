@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coflash</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="classification">選擇分類</string>
+    <string name="search_hint">搜尋</string>
+    <string-array name="class_array">
+        <item>食</item>
+        <item>衣</item>
+        <item>住</item>
+        <item>行</item>
+        <item>育</item>
+        <item>樂</item>
+        <item>其它</item>
+    </string-array>
+</resources>

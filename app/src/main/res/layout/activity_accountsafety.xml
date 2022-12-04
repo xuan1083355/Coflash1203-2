@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AccountSafety">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:id="@+id/top"
+            tools:ignore="DuplicateIds,MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="26.66dp"
+                android:layout_height="26.66dp"
+                android:layout_marginLeft="19.05dp"
+                android:layout_marginTop="33.9dp"
+                android:background="#00000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/back"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31.62dp"
+                android:gravity="center"
+                android:text="帳號安全"
+                android:textColor="#F3BA55"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.90dp"
+            android:background="#D9D9D9"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="23dp"
+            android:text="Coflash採取google帳戶登入，Google 的安全性技術可協助偵測可疑事件，為 帳戶提供更有效的保護。有了跨帳戶防護功能，Google 得以將可疑事件的安全性通知提供給已連結到您 Google 帳戶的應用程式和服務，並保障您上網時的安全性。"
+            android:textSize="17sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/loginEvent"-->
+    <!--        android:layout_width="92dp"-->
+    <!--        android:layout_height="30dp"-->
+    <!--        android:layout_marginStart="59dp"-->
+    <!--        android:layout_marginTop="116dp"-->
+    <!--        android:layout_marginEnd="256dp"-->
+    <!--        android:layout_marginBottom="576dp"-->
+    <!--        android:text="登入活動"-->
+    <!--        android:textSize="20sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/logindata"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="59dp"-->
+    <!--        android:layout_marginTop="186dp"-->
+    <!--        android:text="已儲存登入資料"-->
+    <!--        android:textSize="20sp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
