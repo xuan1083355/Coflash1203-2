@@ -10,9 +10,20 @@ Coflash 是一款旨在提供即時周邊資訊的手機應用程式。通過利
 - 使用**Java**作為主要開發語言實現後端邏輯。
 - 管理和維護應用程式的資料庫，確保資料的完整性和安全性。
 - 使用Android Studio作為開發平台，實現各項App功能。
-- 
+ 
 ## 技術棧
 - 開發語言: Java
 - 開發平台: Android Studio
 - 資料庫: 管理和操作後端資料庫，儲存和檢索應用所需的數據
 - 推播技術: 利用使用者的地理位置來推送即時通知
+
+## App 示意圖
+- 首頁
+-    ![image](https://github.com/xuan1083355/Coflash1203-2/assets/100353401/119a85a4-b930-4283-b370-d8a7689d374e)
+-  詳細活動資訊
+-    ![image](https://github.com/xuan1083355/Coflash1203-2/assets/100353401/baef966a-568f-404e-9917-34f97795f67f)
+-  定位/變更地址
+-    ![image](https://github.com/xuan1083355/Coflash1203-2/assets/100353401/d49577c1-41f8-4569-966a-996bf5daf577)
+
+
+
