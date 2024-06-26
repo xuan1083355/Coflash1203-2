@@ -18,11 +18,11 @@ Coflash 是一款旨在提供即時周邊資訊的手機應用程式。通過利
 - 推播技術: 利用使用者的地理位置來推送即時通知
 
 ### App 示意圖
-- 首頁 
+- 首頁  
   ![image](https://github.com/xuan1083355/Coflash1203-2/assets/100353401/119a85a4-b930-4283-b370-d8a7689d374e)
--  詳細活動資訊 
+-  詳細活動資訊  
   ![image](https://github.com/xuan1083355/Coflash1203-2/assets/100353401/baef966a-568f-404e-9917-34f97795f67f)
--  定位/變更地址 
+-  定位/變更地址  
   ![image](https://github.com/xuan1083355/Coflash1203-2/assets/100353401/d49577c1-41f8-4569-966a-996bf5daf577)
 
 
